@@ -1,0 +1,19 @@
+:root {
+    --background-clr: #D0D1FD;
+    --primary-clr: #31275C;
+}
+
+.background {
+    background-color: var(--background-clr);
+}
+
+.title {
+    font-weight: 900;
+    color: var(--primary-clr);
+}
+
+.form-sec {
+    background-color: var(--primary-clr);
+    border-radius: 32px 0 0 32px;
+    box-shadow: -10px 10px 0 0 var(--background-clr);
+}
